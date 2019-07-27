@@ -1,0 +1,24 @@
+.btn-primary {
+	margin-right: 8px;
+	background-color: blue;
+	border-color: black;
+	border-width: 2px;
+}
+
+
+.btn-primary:hover {
+	background-color: blue;
+	border-color: black;
+}
+body { 
+	background: url("giphy.gif"); 
+	background-size:cover
+  }
+  
+  div {
+	color: white;
+  }
+  
+/*put a class here that adds a background image, put img url link, look at other hw assignments, link it to html with id*/
+/*change the colors here*/
+/*try to do the bonuses in the gitlab instructions, if unable to complete pseudocode them in or add notes about them*/
