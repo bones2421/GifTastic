@@ -45,7 +45,7 @@ on-click function is fine*/
 $(document).on("click", ".topic-button", function() {
 	$("#space-gif").empty(); //empties out previous gifs
 
-	var apiKey = "c64ca2f719e54ca5baaaf7946271c6e4";
+	var apiKey = "GwhUN0CRtORgTLeZ3BZLcsn7YbHl6nnc";
 	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + $(this).html() + "&api_key=" + apiKey + "&limit=10";
 	
 
@@ -63,7 +63,6 @@ $(document).on("click", ".topic-button", function() {
 		var results = response.data;
 
 		//creates new <img> tag, then adds source, then alternate title
-		//May change class or id's
 		for (var j = 0; j < results.length; j++) {
 
 			var newImage = $("<img>");
@@ -76,8 +75,8 @@ $(document).on("click", ".topic-button", function() {
 			
 		}
 		//when you click on gif, it should go from fixed_height_still.url to fixed_height.url
-		//Could dry this up, might need to nest for loops
-		//Will research 
+		//Could dry this up, might need to nest for loops, or make function
+		//Ran out of time to dry this up
 		
 
 		//gif #0
