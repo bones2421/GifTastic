@@ -18,3 +18,5 @@ JavaScript
 
 Author
 Ben WIlliams
+
+https://bones2421.github.io/GifTastic/
